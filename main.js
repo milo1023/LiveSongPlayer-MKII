@@ -127,7 +127,7 @@ plugin.onConfig(function (tools) {
                     playlist.push({
                         ...song, user: msg.user
                     });
-                    attemptSwitchSong();
+                    //attemptSwitchSong();
                     syncPlaylist();
                 } catch (e) {
                     return;
